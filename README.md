@@ -23,41 +23,7 @@ The following games are currently supported by Left4RCade:
 * Tekken 3
 * Tekken Tag Tournament
 
-More games will be added based on technical feasibility, development priorities, and community demand.
-
-## 🎮 Request a Game
-
-Have a classic arcade fighting game you'd like to see on Left4RCade?
-
-**[➡️ Request a Game](https://github.com/left4rcade/left4rcade/issues/new?template=game-request.yml)**
-
-Before creating a request, please check whether the game has already been requested. If it already exists, use the **👍 reaction** on the existing request instead of creating a duplicate.
-
-### 🔥 Community Game Requests
-
-**[🔥 View game requests by popularity](https://github.com/left4rcade/left4rcade/issues?q=is%3Aissue+is%3Aopen+label%3Agame-request&sort=reactions-desc)**
-
-**[🆕 View newest game requests](https://github.com/left4rcade/left4rcade/issues?q=is%3Aissue+is%3Aopen+label%3Agame-request&sort=created-desc)**
-
-**[🔎 Search all game requests](https://github.com/left4rcade/left4rcade/issues?q=is%3Aissue+is%3Aopen+label%3Agame-request)**
-
-Community interest will help guide future game support and development priorities.
-
-> **How voting works:** Find an existing game request and click **👍**. No duplicate request is needed.
-
-### 📋 Request Lifecycle
-
-Game requests are handled through a simple community-driven workflow:
-
-1. **🔥 Requested** — A player submits a game request.
-2. **🔎 Under Review** — The team evaluates technical feasibility, arcade hardware, emulation requirements, netcode considerations, and community interest.
-3. **📌 Planned** — The game is approved for future development.
-4. **🚧 In Development** — Implementation and testing are underway.
-5. **✅ Supported** — The game is available on Left4RCade.
-
-Requests may also be closed as **❌ Not Planned** when technical, legal, licensing, or development constraints make support impractical.
-
-**Voting is only used to measure community demand.** A high vote count does not automatically guarantee implementation; technical feasibility and development priorities also matter.
+More games may be added based on technical feasibility and development priorities.
 
 ## ⚡ Features
 
