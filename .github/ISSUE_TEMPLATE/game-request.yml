@@ -1,0 +1,66 @@
+name: 🎮 Request a Game
+description: Suggest an arcade fighting game for Left4RCade to support.
+title: "[GAME REQUEST] "
+labels:
+  - game-request
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎮 Suggest a game for Left4RCade
+
+        What arcade fighting game would you like to see supported next?
+
+        **Please submit one game per request.** This keeps community voting accurate.
+
+        Popular requests may help shape the Left4RCade roadmap.
+
+        Requests are reviewed by the Left4RCade team for technical feasibility, emulation requirements, networking considerations, and community demand.
+
+  - type: input
+    id: game-name
+    attributes:
+      label: Game name
+      description: Enter one game title only.
+      placeholder: "e.g. Project Justice"
+    validations:
+      required: true
+
+  - type: input
+    id: arcade-platform
+    attributes:
+      label: Arcade platform / hardware
+      description: If known, tell us which arcade hardware or system the game runs on.
+      placeholder: "e.g. Sega NAOMI, Sony ZN-2, Namco System 12"
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why should Left4RCade support this game?
+      description: Optional. Tell us why you would like to play this game online.
+      placeholder: "This game would be great because..."
+    validations:
+      required: false
+
+  - type: input
+    id: reference
+    attributes:
+      label: Reference
+      description: Optional link to information about the game.
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have checked that this game has not already been requested. If it exists, I will use 👍 on the existing request instead.
+          required: true
+
+        - label: I understand that a request is a community suggestion, not a guarantee that the game will be implemented.
+          required: true
