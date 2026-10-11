@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./left4rcade_fc.png" alt="Left4RCade FightClub" width="700">
+  <img src="./left4rcade_fc2.png" alt="Left4RCade FightClub" width="700">
 </p>
 
 # Left4RCade
